@@ -1,7 +1,9 @@
-
-body , html {
+body,
+html {
     scroll-behavior: smooth;
-    margin: 0;padding: 0;
+    scrollbar-width: 5px;
+    margin: 0;
+    padding: 0;
     width: 1440px;
     height: 6368px;
 }
