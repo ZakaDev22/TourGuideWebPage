@@ -1,7 +1,14 @@
 
+.section0-container
+{
+    margin: 49px 0 0 68px;
+
+    display: flex;
+}
+
 .section0  {
 
-    margin: 49px 0 0 68px;
+    width: 60%;
     background-color: #b75a74;
     color: white;
 
@@ -11,6 +18,12 @@
 
     
 }
+
+header .image img {
+
+    border-radius: 30px;
+}
+
 
 .section0 .header {
     display:  flex;
@@ -80,6 +93,7 @@
         height: 65px;
         border-radius: 33px;
         background-color: #ffefd5;
+        cursor: pointer;
 
         border: none;
             font-size: 25px;
