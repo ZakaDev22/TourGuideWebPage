@@ -5,20 +5,71 @@ main .Section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
-section .content {
+.Section1 .content {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(3 , 254px);
+    gap: 50px;
 }
 
-.Section1 .content .card .image {
+.Section1 .content .card {
 
-    width: 154px;
-    height: 154px;
-    background: url(/Images/card1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 150%;
-    border-radius: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section1 .content #card1 .image {
+
+    width: 254px;
+        height: 254px;
+        background: url(/Images/card1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150%;
+        border-radius: 50%;
+}
+
+.Section1 .content #card2 .image {
+
+    width: 254px;
+        height: 254px;
+        background: url(/Images/card2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150%;
+        border-radius: 50%;
+}
+.Section1 .content #card3 .image {
+
+    width: 254px;
+        height: 254px;
+        background: url(/Images/card3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150%;
+        border-radius: 50%;
+}
+
+.Section1 .content .card h2 {
+
+    font-size: 28px;
+        color: #b75a74;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
+}
+
+.Section1 .content .card p {
+
+    width: 237px;
+        height: 37px;
+        font-size: 17px;
+        color: #b75a74;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
 }
