@@ -20,8 +20,9 @@
     linear-gradient(to right ,#b75a74,#b75a7400),
     url(/Images/section0.jpg);
 
-    background-position: right;
+    background-position: left;
     background-size: cover;
+    background-repeat: no-repeat;
     border: none;
     border-radius: 50px;
              
