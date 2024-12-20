@@ -2,4 +2,23 @@
 main .Section1 {
 
     background-color: #ffefd5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .content {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.Section1 .content .card .image {
+
+    width: 154px;
+    height: 154px;
+    background: url(/Images/card1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-radius: 50%;
 }
