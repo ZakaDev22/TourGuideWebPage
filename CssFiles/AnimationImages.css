@@ -2,6 +2,11 @@
 #image1 {
 
     position: absolute;
+    transform: translate(110px, 769px);
+}
 
-    transform: translate(110px,769px);
+#image2 {
+
+    position: absolute;
+    transform: translate(1150px, 900px);
 }
