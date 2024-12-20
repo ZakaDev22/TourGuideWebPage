@@ -10,3 +10,28 @@
     position: absolute;
     transform: translate(1150px, 900px);
 }
+
+#image3 {
+
+    position: absolute;
+    transform: translate(1150px, 1500px);
+}
+
+#image4 {
+
+    position: absolute;
+    transform: translate(-22px, 1250px);
+}
+
+#image5 {
+
+    position: absolute;
+    transform: translate(1204px, 1226px);
+}
+
+#image6 {
+
+    position: absolute;
+    transform: translate(689px, 1526px);
+}
+

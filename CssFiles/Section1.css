@@ -8,10 +8,41 @@ main .Section1 {
     justify-content: space-around;
 }
 
+.Section1 .header {
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+.Section1 .header h1 {
+    width: 354px;
+    height: 47px;
+    font-size: 64px;
+        text-transform: uppercase;
+        color: #b75a74;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
+}
+
+.Section1 .header p {
+    width: 700px;
+    height: 50px;
+    font-size: 25px;
+        color: #b75a74;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+        overflow: hidden;
+}
+
 .Section1 .content {
     display: grid;
     grid-template-columns: repeat(3 , 254px);
     gap: 50px;
+    margin-bottom: 125px;
 }
 
 .Section1 .content .card {
@@ -20,6 +51,20 @@ main .Section1 {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+}
+.Section1 .content .card .image {
+
+    box-shadow: 5px 5px 50px black;
+    transition: all 800ms ease;
+}
+.Section1 .content .card .image:hover {
+
+    cursor: pointer;
+    box-shadow: 5px 5px 30px rgb(255, 6, 6),
+            5px -5px 30px rgb(3, 168, 201),
+            -5px 5px 30px rgb(7, 172, 7),
+            -5px -5px 30px rgb(100, 7, 7);
+    transform: scale(1.1);
 }
 
 .Section1 .content #card1 .image {
@@ -40,7 +85,7 @@ main .Section1 {
         background: url(/Images/card2.jpg);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: 100%;
         border-radius: 50%;
 }
 .Section1 .content #card3 .image {
