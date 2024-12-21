@@ -22,12 +22,12 @@ main .Section2 {
 
     width: 475px;
     height: 475px;
-    background: url(/Images/card1.jpg);
+    background: url(/Images/section2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: 100%;
     border-radius: 50%;
-
+    box-shadow: 5px 5px 5px black;
     transition: all 650ms ease;
 }
 
@@ -61,18 +61,19 @@ main .Section2 {
     font-weight: 700;
     font-family: "Montserrat";
     text-align: center;
-
+    box-shadow: 5px 5px 5px black;
     transition: all 700ms ease;
 }
 
-.Section2 .right .text button:hover , .Section2 .image:hover {
+.Section2 .right .text button:hover,
+.Section2 .image:hover {
 
     cursor: pointer;
-        box-shadow: 5px 5px 30px rgb(255, 6, 6),
-            5px -5px 30px rgb(255, 255, 255),
-            -5px 5px 30px rgb(7, 172, 7),
-            -5px -5px 30px rgb(100, 7, 7);
-        transform: scale(1.1);
+    box-shadow: 5px 5px 30px rgb(255, 6, 6),
+        5px -5px 30px rgb(255, 255, 255),
+        -5px 5px 30px rgb(7, 172, 7),
+        -5px -5px 30px rgb(100, 7, 7);
+    transform: scale(1.1);
 
-        rotate: 10deg;
+    rotate: 10deg;
 }

@@ -1,0 +1,78 @@
+main .Section3 {
+
+    height: 800px;
+    background-color: #ffefd5;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.Section3 .header {
+
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.Section3 .header h1 {
+
+    font-size: 62px;
+    text-transform: uppercase;
+    color: #b75a74;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.Section3 .header p {
+
+    font-size: 25px;
+    color: #b75a74;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.Section3 .content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.Section3 .content .box {
+
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 5px solid #b75a74;
+
+    padding: 20px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Section3 .content .box h2 {
+
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #b75a74;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin: 0;
+}
+
+.Section3 .content .box h3 {
+
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #b75a74;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
