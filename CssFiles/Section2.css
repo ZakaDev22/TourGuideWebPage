@@ -1,0 +1,78 @@
+main .Section2 {
+
+    height: 800px;
+    background-color: #b75a74;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Section2 .left,
+.Section2 .right {
+
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.Section2 .left .image {
+
+    width: 475px;
+    height: 475px;
+    background: url(/Images/card1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-radius: 50%;
+
+    transition: all 650ms ease;
+}
+
+.Section2 .right .text h2 {
+
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffefd5;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.Section2 .right .text p {
+
+    font-size: 30px;
+    color: #ffefd5;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.Section2 .right .text button {
+
+    width: 322px;
+    height: 65px;
+    border-radius: 32px;
+    background-color: #ffefd5;
+
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #b75a74;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+
+    transition: all 700ms ease;
+}
+
+.Section2 .right .text button:hover , .Section2 .image:hover {
+
+    cursor: pointer;
+        box-shadow: 5px 5px 30px rgb(255, 6, 6),
+            5px -5px 30px rgb(3, 168, 201),
+            -5px 5px 30px rgb(7, 172, 7),
+            -5px -5px 30px rgb(100, 7, 7);
+        transform: scale(1.1);
+
+        rotate: 10deg;
+}
