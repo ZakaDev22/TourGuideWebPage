@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@600&display=swap');
 
 .section0-container
 {
@@ -65,7 +66,7 @@
         text-transform: uppercase;
         color: #ffefd5;
         font-weight: 600;
-        font-family: "Montserrat";
+        font-family: "Montserrat", serif;
 }
 
 .section0 .text {
